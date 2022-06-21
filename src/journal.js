@@ -1,3 +1,14 @@
+// export function Journal() {
+//   this.entries = {};
+//   this.currentId = 0;
+// }
+
+// export function Entry(title, body) {
+//   this.entryTitle = title;
+//   this.entryBody = body;
+// }
+export { Journal, Entry };
+
 // Business Logic for Journal ---------
 function Journal() {
   this.entries = {};
